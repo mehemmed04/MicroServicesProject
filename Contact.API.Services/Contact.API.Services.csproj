@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.API.Infrastructure\Contact.API.Infrastructure.csproj" />
+    <ProjectReference Include="..\Contact.Models\Contact.API.Models.csproj" />
+  </ItemGroup>
+
+</Project>
