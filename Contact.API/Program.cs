@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.WebHost.UseUrls("");//should change
+builder.WebHost.UseUrls("https://*:10601;");
 
 builder.Services.AddScoped<IContactService, ContactService>();
 
