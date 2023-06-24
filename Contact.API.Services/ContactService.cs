@@ -35,6 +35,7 @@ namespace Contact.API.Services
 
         public void Add(ContactDTO contact)
         {
+            contact.Id = new Random().Next(1, 100000);
             AllContacts.Add(contact);
         }
 
